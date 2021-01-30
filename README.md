@@ -8,7 +8,7 @@ This requires the following dependencies:
 - [Node.js](https://nodejs.org/)
 - [Gulp JS](https://gulpjs.com/)
 
-# First steps
+## First steps
 
 1. Clone or download this repository to your machine
 2. Open a terminal into your current project and type this command: 
