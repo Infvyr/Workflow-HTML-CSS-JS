@@ -11,8 +11,10 @@ This requires the following dependencies:
 ## First steps
 
 1. Clone or download this repository to your machine
-2. Open a terminal into your current project and type this command: 
+2. Open a terminal into your current project and type this command:
+```sh
 $ npm install - it will download all dev dependencies into your current folder
+```
 3. To use gulp commands see gulpfile.js file or type in terminal:
 ```sh
 $ gulp watch
