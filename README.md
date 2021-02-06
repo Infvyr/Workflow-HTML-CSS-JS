@@ -20,4 +20,4 @@ $ gulp build
 ```
 
 - `gulp watch` : for instant browser reload, compile scss->css, transpile es6->es5, watch html, scss, images, fonts changes
-- `gulp build` : a mix of $ gulp watch and creation of dist folder which contains final bundle of your watched files
+- `gulp build` : a mix of ```gulp watch``` command but with creation of dist folder which contains final bundle of your watched files
