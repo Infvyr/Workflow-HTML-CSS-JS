@@ -1,11 +1,21 @@
 .container{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     max-width: 70rem;
 
-    @include breakpoint($mobile-bp){
+    &-wide{
+        margin: 0 auto;
+        max-width: 140rem;
+
+        @include breakpoint-max($mobile-large){
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    }
+
+    @include breakpoint-max($mobile-large){
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }

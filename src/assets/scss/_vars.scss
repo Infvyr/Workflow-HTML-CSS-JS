@@ -1,53 +1,41 @@
+// 16px = 1.6rem;
+// 1px = 0.1rem
+
 // general
-$primaryColor: #202020;
-$secondaryColor: #121212;
-$textColor: white;
-$textLightColor: #d2d2d2;
-$bodyBgColor: #181818;
-$menuItemColor: white;
-$searchInputColor: white;
-$searchInputFocusColor: #000;
-$publishDateColor: #828282;
-$readMoreColor: #107eef;
-$paginationLinkColor: #fff;
-$paginationBorderColor: #fff;
-$paginationBgColor: #0d0d0d;
-$paginationBgActiveColor: #1317c9;
-$paginationBorderRadius: 3px;
-$textSize: 1.4rem;
-$primaryFont: system-ui,-apple-system,"Segoe UI", Roboto,"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$textLight: 300;
-$textNormal: 400;
-$textMedium: 500;
-$textSemiBold: 600;
-$textBold: 700;
-$btnRed: #ed3024;
-$btnBlue: #1317c9;
-$blue: #1317c9;
-$red: #ed3024;
-$black: #000;
-$white: #fff;
-$orange: #ea8c1e;
-$lightGrey: #ebebeb;
-$borderRadius: 5px;
-$borderColor: #1c1c1c;
+$theme-color-1	:	#344ea2;
+$theme-color-2	: 	#ed2523;
+$theme-color-3	: 	#e1eef9;
+$theme-color-4	:	rgba(243, 221, 223, 0.69);
+$theme-color-5	:	rgba(#e1eef9, 0.86);
+$theme-color-6	:	black;
+$theme-color-7	:	white;
 
-// sidebar
-$sidebarZIndex: 1000;
-$sidebarWidth: 300px;
-$sidebarHeight: 100vh;
-$sidebarBgColor: #1C1C1C;
 
-// modal
-$modalZIndex: 1010;
-$modalLinkColor: #b2b2b2;
+// typography
+$primary-font	:	"Cairo", system-ui,-apple-system,"Segoe UI", Roboto,"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+$secondary-font	:	serif;
 
-// burger
-$burgerColor: white;
-$burgerWidth: 3rem;
-$burgerHeight: 2rem;
+$extra-small-size	:	1.8rem;
+$small-size			:	2rem;
+$normal-size		: 	2.2rem;
+$large-size			: 	3rem;
+$big-size			: 	4rem;
+$huge-size			: 	5rem;
+
+$fw-light	:	300;
+$fw-regular	:	400;
+$fw-bold	:	700;
+
+
+// others
+$border-radius	:	3px;
+$modal-index	:	1010;
+
 
 // breakpoints
-$tablet-bp: 1200px;
-$mobile-med-bp: 767px;
-$mobile-bp: 576px;
+$laptop			:	1200px;
+$tablet-large	:	1024px;
+$tablet-small	:	992px;
+$mobile-large	:	767px;
+$mobile-medium	:	576px;
+$mobile-small	:	480px;

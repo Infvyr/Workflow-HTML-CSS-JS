@@ -1,32 +1,112 @@
-.mb-0{
-    margin-bottom: 0;
-}
+// margins
 
-.ml-1{
-    margin-left: 1rem;
-}
-
-.mb-25{
-    margin-bottom: 2.5rem;
-}
-
-.mb-75{
-    margin-bottom: .75rem;
-}
-
-.post__panel-link--icon{
-    display: flex;
-    align-items: center;
-}
-
-.page__title{
-    margin-bottom: 3rem;
-    font-size: 2.1rem;
-    color: $white;
-}
-
-@include breakpoint($mobile-bp){
-    .btn--full{
-        width: 100%;
+@for $i from 0 through 5{
+    .mb-#{$i}{
+        margin-bottom: #{$i}rem;
     }
+}
+
+@for $i from 0 through 5{
+    .mt-#{$i}{
+        margin-top: #{$i}rem;
+    }
+}
+
+@for $i from 0 through 5{
+    .ml-#{$i}{
+        margin-left: #{$i}rem;
+    }
+}
+
+@for $i from 0 through 5{
+    .mr-#{$i}{
+        margin-right: #{$i}rem;
+    }
+}
+
+
+// paddings
+@for $i from 0 through 5{
+    .pb-#{$i}{
+        padding-bottom: #{$i}rem;
+    }
+}
+
+@for $i from 0 through 5{
+    .pt-#{$i}{
+        padding-top: #{$i}rem;
+    }
+}
+
+@for $i from 0 through 5{
+    .pl-#{$i}{
+        padding-left: #{$i}rem;
+    }
+}
+
+@for $i from 0 through 5{
+    .pr-#{$i}{
+        padding-right: #{$i}rem;
+    }
+}
+
+
+// font weight
+
+.fw-light{
+    font-weight: 300;
+}
+
+.fw-regular{
+    font-weight: 400;
+}
+
+.fw-medium{
+    font-weight: 500;
+}
+
+.fw-semibold{
+    font-weight: 600;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.fw-bolder{
+    font-weight: 800;
+}
+
+.fw-heavy{
+    font-weight: 900;
+}
+
+// headings
+h1,h2,h3,h4,h5,h6{
+    line-height: clamp(1.2, 1.3, 1.5);
+    font-weight: $fw-bold;
+}
+
+h1{
+    font-size: clamp(1.6rem, 6.5vw, $huge-size);
+}
+
+h2{
+    font-size: clamp(1.6rem, 5.8vw, $big-size);
+}
+
+h3{
+    font-size: clamp(1.6rem, 3.6vw, $large-size);
+}
+
+h4{
+    font-size: clamp(1.6rem, 3.2vw, $normal-size);
+}
+
+h5{
+    font-size: clamp(1.4rem, 3vw, $small-size);
+}
+
+h6{
+    font-size: clamp(1.4rem, 2.8vw, $extra-small-size);
 }
